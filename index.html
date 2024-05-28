@@ -12,7 +12,24 @@
 
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <div>
+            <h1>
+                {{msg}}
+            </h1>
+            <h2>
+                {{msgInp}}
+            </h2>
+            <label for="input-msg">Inserisci il sottotitolo</label>
+            <input type="text" name="" id="input-msg" v-model="msgInp">
+        </div>
+        
+        <div>
+            <img :src="imgEl">
+        </div>
+        
+
+    </div>
     
     
     
